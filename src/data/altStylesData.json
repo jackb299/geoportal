@@ -1,0 +1,60 @@
+[
+    {
+        "id": "uk_historical_earthquakes",
+        "styles": [
+            {
+                "id": "default",
+                "styleName": "Default",
+                "property": "circle-color",
+                "value": "#FF0000"
+            },
+            {
+                "id": "magnitude",
+                "styleName": "Magnitude",
+                "property": "circle-color",
+                "value": [
+                    "step",
+                    ["to-number",["get", "MAG"]],
+                    "#ffd5d5",
+                    1,
+                    "#ffabaa",
+                    2,
+                    "#ff8080",
+                    3,
+                    "#ff5555",
+                    4,
+                    "#ff2a2a",
+                    5,
+                    "#ff0000"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "test_polygons",
+        "styles": [
+            {
+                "id": "default",
+                "styleName": "Default",
+                "property": "fill-color",
+                "value": "#FFFF00"
+            },
+            {
+                "id": "example",
+                "styleName": "Example Name",
+                "property": "fill-color",
+                "value": [
+                    "match",
+                    ["get","example_field"],
+                    "Test Polygon 1",
+                    "#00008b",
+                    "Test Polygon 2",
+                    "#00ff00",
+                    "Test Polygon 3",
+                    "#cc1133",
+                    "#000000"
+                ]
+            }
+        ]
+    }
+]

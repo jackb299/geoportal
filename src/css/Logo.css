@@ -1,0 +1,14 @@
+/* This stylesheet contains all the necessary styles related to the Geoportal Logo */
+
+#geoportalLogo {
+    position: absolute;
+    height: 50px;
+    border-radius: 7px;
+    left: 50%;
+    top: 5px;
+    width: 200px;
+    margin-left: -100px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    z-index: 10;
+}

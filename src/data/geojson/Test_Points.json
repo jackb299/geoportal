@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Test_Points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "example_field": "Test Point 1", "example_field_number": 1 }, "geometry": { "type": "Point", "coordinates": [ -0.803456967403005, 52.527286513073832 ] } },
+{ "type": "Feature", "properties": { "example_field": "Test Point 2", "example_field_number": 2 }, "geometry": { "type": "Point", "coordinates": [ -3.530981935692684, 52.498334279336305 ] } },
+{ "type": "Feature", "properties": { "example_field": "Test Point 3", "example_field_number": 3 }, "geometry": { "type": "Point", "coordinates": [ -2.024500121811757, 53.810478545708932 ] } },
+{ "type": "Feature", "properties": { "example_field": "Test Point 4", "example_field_number": 4 }, "geometry": { "type": "Point", "coordinates": [ -2.209506660358538, 52.304831604093287 ] } }
+]
+}

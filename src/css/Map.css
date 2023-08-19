@@ -1,0 +1,64 @@
+/* This stylesheet contains all the styles that affect either the main map itself, or are alterations to Maplibre core elements */
+
+.map-box {
+    position: fixed;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px !important;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 90%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+
+#map-container {
+    height: 100%;
+}
+.mapboxgl-canvas {
+    display: flex;
+    position: relative;
+}
+
+.map-overlay {
+    position: relative;
+    background: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-family: Open Sans, italic;
+    font-size: 12px;
+    overflow: visible;
+    border-radius: 3px;
+}
+.maplibregl-popup {
+    max-width: 500px !important;
+}
+
+.maplibregl-popup-content {
+    display: grid;
+    width: 100%;
+    border-radius: 20px !important;
+}
+
+.maplibregl-popup-close-button {
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+}
+
+.maplibregl-popup-content > h3 {
+    display: grid;
+    height: auto;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    place-self: center;
+}
+
+.maplibregl-popup-content > ul, li {
+    font-size: 15px;
+    margin-top: 5px;
+}

@@ -1,0 +1,397 @@
+[
+    {
+        "id": "uk_historical_earthquakes",
+        "legends": [
+            {
+                "styleName": "default",
+                "values": [
+                    {
+                        "name": "Earthquake Epicentre",
+                        "colour": "#FF0000",
+                        "type": "point"
+                    }
+                ]
+            },
+            {
+                "styleName": "magnitude",
+                "values": [
+                    {
+                        "name": "Magnit. <1",
+                        "colour": "#ffd5d5",
+                        "type": "point"
+                    },
+                    {
+                        "name": "Magnit. 1-2",
+                        "colour": "#ffabaa",
+                        "type": "point"
+                    },
+                    {
+                        "name": "Magnit. 2-3",
+                        "colour": "#ff8080",
+                        "type": "point"
+                    },
+                    {
+                        "name": "Magnit. 3-4",
+                        "colour": "#ff5555",
+                        "type": "point"
+                    },
+                    {
+                        "name": "Magnit. 4-5",
+                        "colour": "#ff0100",
+                        "type": "point"
+                    },
+                    {
+                        "name": "Magnit. >5",
+                        "colour": "#ff0000",
+                        "type": "point"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "bgs_geology_map",
+        "legends": [
+            {
+                "styleName": "default",
+                "values": [
+                    {
+                        "name": "Bashkirian",
+                        "colour": "#98E5CB",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Bathonian",
+                        "colour": "#B2FEF1",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Cambrian",
+                        "colour": "#7FCB58",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Carnoniferous",
+                        "colour": "#65D8B2",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Cenomanian",
+                        "colour": "#B2FE4C",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Cenozoic",
+                        "colour": "#F1FE00",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Cisuralian",
+                        "colour": "#F15865",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Cretaceous",
+                        "colour": "#7FFE3F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Darriwilian",
+                        "colour": "#72FEA5",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Devonian",
+                        "colour": "#CB983F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Emsian",
+                        "colour": "#E5D87F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Eocene",
+                        "colour": "#FEB27F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Famennian",
+                        "colour": "#F1F1CB",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Jurassic",
+                        "colour": "#32F1FE",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Llandovery",
+                        "colour": "#98FEBE",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Lopingian",
+                        "colour": "#FEA5B2",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Lower Cambrian",
+                        "colour": "#8BD872",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Lower Cretaceous",
+                        "colour": "#8BFE4C",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Lower Devonian",
+                        "colour": "#E5B258",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Ludlow",
+                        "colour": "#BEFED8",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Mesoproterozoic",
+                        "colour": "#FEB272",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Mesozoic",
+                        "colour": "#65FEE5",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Middle Cambrian",
+                        "colour": "#A5F18B",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Middle Devonian",
+                        "colour": "#F1CB72",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Middle Jurassic",
+                        "colour": "#7FFEF1",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Mississippian",
+                        "colour": "#65BE72",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Moscovian",
+                        "colour": "#B2E5CB",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Neogene",
+                        "colour": "#FEE500",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Neoproterozoic",
+                        "colour": "#FEB24C",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Not Applicable",
+                        "colour": "#B2B2B2",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "No Data",
+                        "colour": "#B2B2B2",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Oligocene",
+                        "colour": "#FEBE8B",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Ordovician",
+                        "colour": "#00FE65",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Oxfordian",
+                        "colour": "#BEFEFE",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Paleocene",
+                        "colour": "#FEA572",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Paleogene",
+                        "colour": "#FE9865",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Paleoproterozoic",
+                        "colour": "#FE3FB2",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Paleozoic",
+                        "colour": "#98E598",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Pennsylvanian",
+                        "colour": "#98E5CB",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Permian",
+                        "colour": "#F13F3F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Phanerozoic",
+                        "colour": "#98FEF1",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Precambrian",
+                        "colour": "#FE3FB2",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Pridoli",
+                        "colour": "#E5FEE5",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Proterozoic",
+                        "colour": "#FE32A5",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Silurian",
+                        "colour": "#B2FEBE",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Thanetian",
+                        "colour": "#FEBE7F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Tournaisian",
+                        "colour": "#8BD872",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Tremadocian",
+                        "colour": "#32FE7F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Triassic",
+                        "colour": "#7F32FE",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Upper Cretaceous",
+                        "colour": "#A5FE3F",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Upper Devonian",
+                        "colour": "#F1E5A5",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Upper Jurassic",
+                        "colour": "#B2FEFE",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Upper Ordovician",
+                        "colour": "#7FFE98",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Wenlock",
+                        "colour": "#B2FECB",
+                        "type": "poly"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "test_polygons",
+        "legends": [
+            {
+                "styleName": "default",
+                "values": [
+                    {
+                        "name": "Example Polygon",
+                        "colour": "#FFFF00",
+                        "type": "poly"
+                    }
+                ]
+            },
+            {
+                "styleName": "example",
+                "values": [
+                    {
+                        "name": "Test Polygon 1",
+                        "colour": "#00008b",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Test Polygon 2",
+                        "colour": "#00ff00",
+                        "type": "poly"
+                    },
+                    {
+                        "name": "Test Polygon 3",
+                        "colour": "#cc1133",
+                        "type": "poly"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "test_points",
+        "legends": [
+            {
+                "styleName": "default",
+                "values": [
+                    {
+                        "name": "Example Point",
+                        "colour": "#00FFFF",
+                        "type": "point"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "test_lines",
+        "legends": [
+            {
+                "styleName": "default",
+                "values": [
+                    {
+                        "name": "Example Line",
+                        "colour": "#f486da",
+                        "type": "line"
+                    }
+                ]
+            }
+        ]
+    }
+]

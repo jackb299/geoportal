@@ -1,0 +1,22 @@
+[
+    {
+        "label": "BGS",
+        "id": "bgs",
+        "description": "BGS Layers relate to data provided by the British Geological Survey (BGS).",
+        "layers": [
+            "uk_historical_earthquakes",
+            "bgs_geology_map"
+        ]
+    },
+    {
+        "label": "Example Layers",
+        "id": "examples",
+        "description": "This category contains example layers",
+        "layers": [
+            "test_polygons",
+            "test_points",
+            "test_lines"
+        ]
+    }
+]
+    

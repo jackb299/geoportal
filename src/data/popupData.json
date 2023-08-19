@@ -1,0 +1,59 @@
+
+{
+    "uk_historical_earthquakes": {
+        "mainLabel": "MAG",
+        "popups": [
+            {
+                "text": "Earthquake Year",
+                "property": "YEAR"
+            },
+            {
+                "text": "Earthquake Depth",
+                "property": "DEP"
+            },
+            {
+                "text": "Earthquake Magnitude",
+                "property": "MAG"
+            }
+        ]
+    },
+    "test_polygons": {
+        "mainLabel": "example_field",
+        "popups": [
+            {
+                "text": "Example Name",
+                "property": "example_field"
+            },
+            {
+                "text": "Example Number Field",
+                "property": "example_field_number"
+            }
+        ]
+    },
+    "test_lines": {
+        "mainLabel": "example_field",
+        "popups": [
+            {
+                "text": "Example Name",
+                "property": "example_field"
+            },
+            {
+                "text": "Example Number Field",
+                "property": "example_field_number"
+            }
+        ]
+    },
+    "test_points": {
+        "mainLabel": "example_field",
+        "popups": [
+            {
+                "text": "Example Name",
+                "property": "example_field"
+            },
+            {
+                "text": "Example Number Field",
+                "property": "example_field_number"
+            }
+        ]
+    }
+}

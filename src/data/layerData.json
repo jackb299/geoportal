@@ -1,0 +1,155 @@
+[
+    {
+        "id": "uk_historical_earthquakes",
+        "name": "UK Historical Earthquakes",
+        "description": "This layer contains BGS Data related to historical earthquakes to hit the UK.",
+        "category": "bgs",
+        "layers": [
+            {
+                "type": "GEOJSON",
+                "sourceData": {
+                    "url": "file",
+                    "layerName": "uk_historical_earthquakes"
+                },
+                "style": {
+                    "id": "uk_historical_earthquakes",
+                    "source": "ukEarthquakes",
+                    "type": "circle",
+                    "maxzoom": 20,
+                    "minzoom": 0,
+                    "layout": {
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "circle-color": "#FF0000",
+                        "circle-stroke-width": 0.75,
+                        "circle-radius": 5,
+                        "circle-opacity": 1
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "bgs_geology_map",
+        "name": "BGS Geology",
+        "description": "This layer contains a generalised WMS of the UK befrock geology, provided by BGS.",
+        "category": "bgs",
+        "layers": [
+            {
+                "type": "WMS",
+                "sourceData": {
+                    "url": "https://ogc.bgs.ac.uk/cgi-bin/BGS_Bedrock_and_Superficial_Geology/ows?version=1.1.1&request=GetMap&layers=GBR_BGS_625k_BA&format=image/png&SRS=EPSG:3857&BBOX={bbox-epsg-3857}&width=256&height=256&styles&service=WMS&",
+                    "layerName": "bgs_geology_map"
+                },
+                "style": {
+                    "id": "bgs_geology_map",
+                    "source": "bgsGeology",
+                    "type": "raster",
+                    "layout": {
+                        "visibility": "none"
+                    },
+                    "paint": {}
+                }
+            }
+        ]
+    },
+    {
+        "id": "test_polygons",
+        "name": "Example Polygon Layer",
+        "description": "This layer contains an example of a valid polygon layer and style.",
+        "category": "examples",
+        "layers": [
+            {
+                "type": "GEOJSON",
+                "sourceData": {
+                    "url": "file",
+                    "layerName": "test_polygons"
+                },
+                "style": {
+                    "id": "test_polygons",
+                    "source": "testPolygons",
+                    "type": "fill",
+                    "maxzoom": 20,
+                    "minzoom": 0,
+                    "layout": {
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "fill-color": "#FFFF00",
+                        "fill-opacity": [
+                            "interpolate",
+                            ["exponential",0.5],
+                            ["zoom"],
+                            12,
+                            0.6,
+                            15,
+                            0.2
+                        ],
+                        "fill-outline-color": "#000000"
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "test_points",
+        "name": "Example Points Layer",
+        "description": "This layer contains an example of a valid points layer and style.",
+        "category": "examples",
+        "layers": [
+            {
+                "type": "GEOJSON",
+                "sourceData": {
+                    "url": "file",
+                    "layerName": "test_points"
+                },
+                "style": {
+                    "id": "test_points",
+                    "source": "testPoints",
+                    "type": "circle",
+                    "maxzoom": 20,
+                    "minzoom": 0,
+                    "layout": {
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "circle-color": "#00FFFF",
+                        "circle-stroke-width": 0.75,
+                        "circle-radius": 5,
+                        "circle-opacity": 1
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "id": "test_lines",
+        "name": "Example Lines Layer",
+        "description": "This layer contains an example of a valid line layer and style.",
+        "category": "examples",
+        "layers": [
+            {
+                "type": "GEOJSON",
+                "sourceData": {
+                    "url": "file",
+                    "layerName": "test_lines"
+                },
+                "style": {
+                    "id": "test_lines",
+                    "source": "testLines",
+                    "maxzoom": 20,
+                    "minzoom": 0,
+                    "type": "line",
+                    "layout": {
+                        "visibility": "none"
+                    },
+                    "paint": {
+                        "line-color": "#f486da",
+                        "line-width": 5
+                    }
+                }
+            }
+        ]
+    }
+]

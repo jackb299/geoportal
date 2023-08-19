@@ -1,0 +1,26 @@
+[
+    {
+        "id": "uk_historical_earthquakes",
+        "name": "UK Historical Earthquakes",
+        "options": [
+            {
+                "name": "Year",
+                "field": "YEAR",
+                "help": "Refers to the year the earthquake took place. E.g. 1931.",
+                "type": "number"
+            },
+            {
+                "name": "Depth",
+                "field": "DEP",
+                "help": "Refers to the depth of the Earthquake in kilometers. E.g. 23.",
+                "type": "text"
+            },
+            {
+                "name": "Magnitude",
+                "field": "MAG",
+                "help": "Refers to the Magnitude of the earthquake. E.g. 6.1.",
+                "type": "text"
+            }
+        ]
+    }
+]

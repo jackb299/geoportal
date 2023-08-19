@@ -1,0 +1,56 @@
+#toolsButton {
+    bottom: 3%;
+    left: 1%;
+}
+
+#toolsContainer {
+    bottom: 3%;
+    left: 1%;
+    width: clamp(300px, 20%, 500px);
+    padding-bottom: 50px;
+}
+
+.tools-header {
+    font-size: calc(var(--layer-menu-font-size) + 10px);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+}
+
+.tool-button {
+    font-size: var(--layer-menu-font-size);
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    place-items: center;
+    width: auto;
+    top: 0;
+    background-color: #ffffff;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-color: rgb(0, 0, 0);
+    border: 1px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.tool-help {
+    height: 40px;
+    place-self: center;
+}
+
+.tippy-box[data-theme~='toolhelp'] {
+    background-color: #EBEBEB !important;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.tippy-box[data-theme~='toolhelp'][data-placement^='left'] > .tippy-arrow::before {
+    border-left-color: #EBEBEB;
+}
